@@ -1,0 +1,13 @@
+h1{
+    text-align: center;
+    font-weight: 400;
+    text-decoration: red dotted underline;
+    letter-spacing: 10px;
+    font-size:100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+p{
+    text-align: left;
+    line-height: 2;
+}
