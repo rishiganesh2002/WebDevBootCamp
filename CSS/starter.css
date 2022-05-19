@@ -30,6 +30,24 @@ span a{
     text-decoration: none;
 }
 
-input + button{
+/* input + button{
     background-color: pink;
+} */
+
+input[type = "password"]{
+    color:greenyellow; 
+}
+
+button:hover{
+    color:red;
+    background-color: white;
+}
+
+button:active{
+    background-color:black
+}
+
+h2::first-letter{
+    color:blue;
+    font-size: 300px;
 }
