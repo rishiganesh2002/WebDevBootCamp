@@ -1,0 +1,12 @@
+h1{
+    background-color: palegoldenrod;
+    border: 1px solid red;
+    display: inline;
+}
+
+span{
+    background-color: red;
+    border: 1px solid blue;
+    width:500px;
+    padding: 100px;
+}

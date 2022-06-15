@@ -1,0 +1,43 @@
+div{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+}
+
+#one{
+    background-color: aquamarine;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    box-sizing: border-box;
+
+    margin-left:50px;
+    margin-bottom:50px;
+}
+
+#two{
+    background-color: blueviolet;
+    border-width: 3px;
+    border-color:violet;
+    border-style: dashed;
+
+    border-left-width: 6px;
+
+    padding-right: 50px;
+}
+
+#three{
+    background-color: brown;
+    border: 4px solid blue;
+    border-radius: 50%;
+}
+
+h1{
+    padding-top: 50px;
+    padding-left: 30px;
+    margin:0;
+}
+
+body{
+    margin:0;
+}
