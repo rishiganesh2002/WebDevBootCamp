@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(8, 1, 38);
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    height:100vh;
+}
+
+button{
+    background-color:rgba(23, 234, 55, 0);
+    color: orange;
+    padding:0.5%;
+    border:2px solid orange;
+    transition: all 3s ease-in; 
+
+}
+
+button:hover{
+    border-color:darkred;
+    color:darkred;
+    box-shadow: 0em -0.5em 0.5em -0.4em darkred;
+    transform:translateY(-0.25em);
+    cursor: pointer;
+}
