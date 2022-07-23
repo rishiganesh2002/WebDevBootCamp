@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Score Keeper Game</title>
+    <link rel="stylesheet" href="app.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+    />
+  </head>
+
+  <body>
+    <div class="columns is-mobile card">
+      <div class="column is-half is-offset-one-quarter card-image">
+        <img
+          src="https://www.advancedsciencenews.com/wp-content/uploads/2021/08/lisa-keffer-i0kB5B9J8Ds-unsplash.jpg"
+          alt=""
+        />
+      </div>
+    </div>
+
+    <div class="columns is-mobile card-header">
+      <div class="column is-half is-offset-one-quarter card-header">
+        <h1 class="card-header-title">Ping Pong Score Keeper</h1>
+      </div>
+    </div>
+
+    <div class="card-content">
+      <div class="columns is-mobile">
+        <div class="column is-half is-offset-one-quarter">
+          <h2>
+            <span id="pOneDisplay">0</span> to <span id="pTwoDisplay">0</span>
+          </h2>
+        </div>
+      </div>
+
+      <div class="columns is-mobile">
+        <div class="column is-half is-offset-one-quarter">
+          <p>Use the buttons to keep Score</p>
+        </div>
+      </div>
+
+      <div class="columns is-mobile">
+        <div class="column is-half is-offset-one-quarter">
+          <label for="totalScore">Playing To</label>
+          <select name="totalScore" id="totalScore" class="select is-rounded">
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <div class="card-footer">
+      <div class="column is-half is-offset-one-quarter">
+        <button id="p1boost" class="button is-primary is-large">
+          +1 Player One
+        </button>
+
+        <button id="p2boost" class="button is-info is-large">
+          +1 Player Two
+        </button>
+
+        <button id="reset" class="button is-danger is-large">Reset</button>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
