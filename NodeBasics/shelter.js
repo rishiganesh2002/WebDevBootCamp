@@ -1,0 +1,1 @@
+const shelter = require('./dirReqEx');
